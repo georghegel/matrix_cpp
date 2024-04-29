@@ -1,14 +1,11 @@
 ![Oxxxymiron](./screens/Cover_of_Gorgorod.jpg)
 Oxxxymiron - ГОРГОРОД<br>
 *The One Album to Rule Them All*
-<hr>
 
 # Matrix - linear algebra library for C++
 
 This project is similar to the project on C ([link](https://github.com/georghegel/matrix)) but with couple differences.<br>
 Here we have better user experience because of the Object-Orientation of C++.
-
-<hr>
 
 ## Installation
 
@@ -35,7 +32,6 @@ For test:
 ```shell
 not ready yet
 ```
-<hr>
 
 ## How to use
 
@@ -168,8 +164,6 @@ res.print();
 //  -8   -2    4
 ```
 
-<hr>
-
 ### Some other useful functions:<br>
 
 | Method signature                             | Description                                               |
@@ -178,12 +172,3 @@ res.print();
 | <b>void print()</b>                          | prints matrix                                             |
 | <b>S21Matrix transpose()</b>                 | transposes initial matrix and returns new, transposed one |
 | <b>bool EqMatrix(const S21Matrix& other)</b> | returns true, if matrices are equal. otherwise 0          |
-
-<hr>
-
-
-
-
-
-
-
