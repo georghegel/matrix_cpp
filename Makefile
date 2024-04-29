@@ -1,8 +1,7 @@
 CC=gcc++
 FLAGS=-Wall -Wextra -Werror --std=c++17
-ASAN= -fsanitize=address
-TEST_FLAGS=-lgtest
-GCOV=--coverage
+#ASAN= -fsanitize=address
+#TEST_FLAGS=-lgtest
 HTML=-lcov -t test -o rep.info -c -d ./
 
 OPS=		./srcs/arithmetic.cpp \
@@ -27,7 +26,6 @@ rwildcard = $(foreach d, $(wildcard $(1:=/*)), $(call rwildcard,$d,$2) $(filter 
 all: clean gcov_report
 
 test: s21_matrix_oop.a
-	#@$(CC) -o $@ $(TEST_FLAGS) $(FLAGS) 'pkg-config --cflags --libs check' $(SRC) $(TESTS)
 	@rm -rf build
 	@mkdir build
 	@cd build && cmake ../ && make && ./main
