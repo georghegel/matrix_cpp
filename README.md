@@ -1,4 +1,6 @@
-![Oxxxymiron](./screens/Cover_of_Gorgorod.jpg)
+
+<img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/1402fa8c-60e5-4ac6-b7ca-79c371161b7e" />
+
 Oxxxymiron - ГОРГОРОД<br>
 *The One Album to Rule Them All*
 
